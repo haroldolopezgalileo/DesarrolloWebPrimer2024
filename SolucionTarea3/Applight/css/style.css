@@ -1,0 +1,39 @@
+.navbar-nav .nav-item a:hover {
+  text-decoration: underline;
+}
+
+.banner-text h2 {
+  font-weight: 200;
+}
+
+.banner-text .white .weblink {
+  color:red;
+}
+
+.feature>.container>.row>.col-md-12>.section-content.text-center>.row .col-md-4.col-sm-12>.media.single-feature.wow.fadeInUp .media-body.text-right.media-right-margin>h5 {
+  color:#5EE25A;
+}
+
+.feature>.container>.row>.col-md-12>.section-content.text-center>.row .col-md-4.col-sm-12>.media.single-feature.wow.fadeInUp .media-body.text-left>h5 {
+  color:#5EE25A;
+}
+
+.media.single-feature.wow.fadeInUp .icon-border span::before {
+  color:#f775b4;
+}
+
+section.team.section-padding>div.container>div.row>div.col-md-12>div.sectioner-header.text-center {
+  border: solid 1px #8D1EFB;
+}
+
+html body .navbar.navbar-expand-lg.nav-scroll~.feature.section-padding+section.team.section-padding div.container div.row div.col-md-12 div.section-content.text-center>div.row .col-md-4 div.team-detail.wow.bounce h4:nth-child(2) {
+  color: #2E74A7;
+}
+
+html body section.team.section-padding ~ section.testimonial.section-padding div.container div.row div.col-md-12 div.section-content div.row div.offset-md-2.col-md-8.col-sm-12 div.bx-wrapper div.bx-viewport div.slider div.slider-item div.test-text span {
+  text-decoration: underline;
+}
+
+html body section.download.section-padding ~ footer.footer-copy div.container-fluid div.row div.col-md-12 p a {
+  color: #844E41;
+}

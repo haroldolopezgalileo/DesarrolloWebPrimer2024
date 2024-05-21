@@ -1,0 +1,25 @@
+.wrapper #contenido-unico {
+  color: plum;
+}
+
+.wrapper.activo #contenido-unico {
+  color: lightcoral;
+}
+
+.main .wrapper.activo #contenido-unico {
+  color: blue;
+}
+
+.main {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 1px;
+  padding-left: 10px;
+}
+
+.wrapper {
+  border: solid 1px greenyellow;
+  margin: 2px 3px 4px 5px;
+  width: 200px;
+  height: 100px;
+}

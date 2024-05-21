@@ -1,0 +1,27 @@
+.feature.section-padding .container .row .col-md-12 .sectioner-header.text-center h3 {
+  color: #3D4A6C;
+}
+
+.feature>.container>.row>.col-md-12>.section-content.text-center>.row .col-md-4.col-sm-12>.media.single-feature.wow.fadeInUp .media-body>h5{
+  color:black;
+}
+
+.icon-border span::before {
+  color: rgb(142, 30, 252);
+}
+
+section.team.section-padding div.row>div.col-md-12>div.sectioner-header.text-center {
+  border: none;
+}
+
+html body .navbar.navbar-expand-lg.nav-scroll~.feature.section-padding+section.team.section-padding div.container div.row div.col-md-12 div.section-content.text-center>div.row .col-md-4 div.team-detail.wow.bounce h4{
+  color: rgb(142, 30, 252);
+}
+
+html body section.testimonial.section-padding div.container div.row div.col-md-12 div.section-content div.row div.offset-md-2.col-md-8.col-sm-12 div.bx-wrapper div.bx-viewport div.slider div.slider-item div.test-text span {
+  text-decoration: none;
+}
+
+html body footer.footer-copy div.container-fluid div.row div.col-md-12 p a {
+  color: #5f0099;
+}

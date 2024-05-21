@@ -1,0 +1,30 @@
+p {
+  color:yellow;
+}
+
+p {
+  color: orange;
+}
+
+h2 {
+  color: aqua;
+}
+
+#contenido-unico {
+  color:crimson;
+}
+
+p {
+  color: blueviolet;
+}
+
+.contenido {
+  color: brown;
+}
+
+* {
+  color: magenta;
+}
+
+
+

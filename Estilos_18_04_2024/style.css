@@ -1,0 +1,99 @@
+* {
+  font-size: 28px;
+}
+
+.menu {
+  color:brown;
+}
+
+span.menu.item {
+  color:coral
+}
+span[class="menu item"] {
+  color:coral;
+}
+
+a#contenido {
+  background-color: cadetblue;
+}
+
+.submenu {
+  color: blueviolet;
+}
+
+#contenido {
+  background-color: aqua;
+}
+
+a[href="https://www.google.com"] {
+  color: yellow;
+}
+
+.subelemento {
+  color:chartreuse;
+}
+
+div[class~="subelemento"] {
+  color: chartreuse;
+}
+
+div p {
+  font-size: 34px;
+}
+
+div > p {
+  font-size: 40px;
+}
+
+div + p {
+  background-color: crimson;
+}
+
+div ~ p {
+  background-color: thistle;
+} 
+
+p.texto {
+  color:white;
+}
+
+.texto {
+  color: bisque;
+}
+
+#contenido:link {
+  color:green;
+}
+
+#contenido:visited {
+  color:yellow;
+}
+
+#contenido:hover {
+  color:red;
+}
+
+#contenido:active {
+  color:blue;
+}
+
+.nombre:focus {
+  background-color: cornflowerblue;
+}
+
+.lista-menu h2:nth-child(5) {
+  color: green;
+}
+
+.lista-menu h2:nth-child(5):hover {
+  color: orange;
+}
+
+p::before {
+  content: '🤯';
+}
+
+p::after {
+  content: '🤡';
+}
+

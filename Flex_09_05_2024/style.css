@@ -1,0 +1,22 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: solid 1px salmon;
+  height: 200px;
+  /* gap:20px 40px; */
+}
+
+.item {
+  border: solid 1px green;
+  height: 100px;
+  width: 100px;
+}
+
+.i3 {
+  align-self: flex-start;
+}
+
