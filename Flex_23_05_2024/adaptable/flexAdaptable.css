@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2%;
+  padding: 20px 6% 0px 6%;
+}
+
+article img {
+  width: 100%;
+
+}
