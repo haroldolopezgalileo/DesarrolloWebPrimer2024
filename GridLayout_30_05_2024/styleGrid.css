@@ -1,9 +1,9 @@
-.contenedor {
+/* .contenedor {
   display: grid;
   background-color: bisque;
   border: 2px solid blue;
-  grid-template-columns: 1fr 2fr 100px 200px;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr minmax(100px,200px) 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .contenedor-flex {
@@ -17,4 +17,45 @@
 
 img {
   width: 30%;
+}
+
+svg {
+  height: 30px;
+}*/
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4,200px); /* repeat(5,1fr) */
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer"
+  ;
+}
+
+.item-1 {
+  grid-area: header;
+  background-color: coral;
+}
+
+
+
+.item-3 {
+  grid-area: main;
+  background-color: crimson;
+}
+
+.item-4 {
+  grid-area:footer;
+  background-color: darkcyan;
+}
+
+.item {
+  height: 30px;
+}
+
+.item-2 {
+  grid-area: sidebar;
+  background-color: blueviolet;
+  height: 100px;
 }

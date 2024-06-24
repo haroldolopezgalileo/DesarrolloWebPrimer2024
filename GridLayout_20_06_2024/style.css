@@ -1,0 +1,12 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,1fr);
+  background-color: cornsilk;
+  height: 200px;
+}
+
+.item {
+  background-color: blueviolet;
+  grid-area: 3 / 2 / 5 / 3
+}
