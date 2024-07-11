@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+}
+
+.nav-desktop {
+  flex-grow: 2;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 0px;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 50px;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+@media (max-width:576px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    gap: 10px;
+  }
+}

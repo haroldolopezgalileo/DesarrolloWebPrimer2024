@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidades flexibles</title>
+  <style>
+
+    html {
+      font-size: 10px;
+    }
+
+    body {
+      margin: 0px;
+    }
+
+    .contenedor {
+      border: solid 1px orangered;
+      font-size: 1.5rem;
+      height: 10vh;
+      width: 50vw;
+    }
+    .texto {
+      font-size: 1rem;
+      width: 50%;
+    }
+
+    .contenedor-imagen {
+      border: 2px solid blueviolet;
+      width: 1000px;
+      height: 400px;
+    }
+
+    .contenedor-imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: none;
+      object-position: top right;
+    }
+  </style>
+</head>
+<body>
+  <div id="alerta" class="contenedor">
+    <p class="texto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat explicabo hic voluptatibus reprehenderit vitae saepe doloribus modi perspiciatis eligendi tenetur rerum sint, aliquid labore, excepturi laudantium animi dolore debitis.
+    </p>
+  </div>
+
+  <div class="contenedor-imagen">
+    <img src="./image.png" alt="imagen">
+  </div>
+
+  <img src="./image.png" alt="imagen">
+</body>
+</html>
